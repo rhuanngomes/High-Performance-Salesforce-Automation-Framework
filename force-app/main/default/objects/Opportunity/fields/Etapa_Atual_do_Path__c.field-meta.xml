@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Etapa_Atual_do_Path__c</fullName>
+    <label>Etapa Atual do Path</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agende reunião</fullName>
+                <default>false</default>
+                <label>Agende reunião</label>
+            </value>
+            <value>
+                <fullName>Documente necessidades</fullName>
+                <default>false</default>
+                <label>Documente necessidades</label>
+            </value>
+            <value>
+                <fullName>Prepare proposta</fullName>
+                <default>false</default>
+                <label>Prepare proposta</label>
+            </value>
+            <value>
+                <fullName>Envie proposta</fullName>
+                <default>false</default>
+                <label>Envie proposta</label>
+            </value>
+            <value>
+                <fullName>Obtenha assinatura</fullName>
+                <default>false</default>
+                <label>Obtenha assinatura</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

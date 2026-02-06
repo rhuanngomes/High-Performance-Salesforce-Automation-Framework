@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>unfiled$public/Forecast_de_Receita_90_Dias_NWQ</members>
+        <members>unfiled$public/Leads_em_Risco_Sem_Contato_44t</members>
+        <members>unfiled$public/Leads_por_Origem_30_Dias_GdV</members>
+        <members>unfiled$public/Pipeline_por_Etapa_wQb</members>
+        <members>unfiled$public/Qualidade_de_Dados_Leads_Incompletos</members>
+        <members>unfiled$public/Qualidade_de_Dados_Opps_Incompletas</members>
+        <members>unfiled$public/Taxa_de_Converso_por_AE_PG8</members>
+        <name>Report</name>
+    </types>
+    <version>65.0</version>
+</Package>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_de_duplicata__c</fullName>
+    <label>Status de duplicata</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Novo</fullName>
+                <default>true</default>
+                <label>Novo</label>
+            </value>
+            <value>
+                <fullName>Em Análise - Possível Duplicata</fullName>
+                <default>false</default>
+                <label>Em Análise - Possível Duplicata</label>
+            </value>
+            <value>
+                <fullName>Aprovado para Conversão</fullName>
+                <default>false</default>
+                <label>Aprovado para Conversão</label>
+            </value>
+            <value>
+                <fullName>Duplicata Confirmada</fullName>
+                <default>false</default>
+                <label>Duplicata Confirmada</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

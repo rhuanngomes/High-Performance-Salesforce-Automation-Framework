@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_bloqueio_de_avan_o__c</fullName>
+    <label>Motivo bloqueio de avanço</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dados incompletos</fullName>
+                <default>false</default>
+                <label>Dados incompletos</label>
+            </value>
+            <value>
+                <fullName>Documentação pendente</fullName>
+                <default>false</default>
+                <label>Documentação pendente</label>
+            </value>
+            <value>
+                <fullName>Outro</fullName>
+                <default>false</default>
+                <label>Outro</label>
+            </value>
+            <value>
+                <fullName>Reunião não concluída</fullName>
+                <default>false</default>
+                <label>Reunião não concluída</label>
+            </value>
+            <value>
+                <fullName>Necessidades sem documentação</fullName>
+                <default>false</default>
+                <label>Necessidades sem documentação</label>
+            </value>
+            <value>
+                <fullName>Proposta não preparada</fullName>
+                <default>false</default>
+                <label>Proposta não preparada</label>
+            </value>
+            <value>
+                <fullName>Proposta não enviada</fullName>
+                <default>false</default>
+                <label>Proposta não enviada</label>
+            </value>
+            <value>
+                <fullName>Assinatura não obtida</fullName>
+                <default>false</default>
+                <label>Assinatura não obtida</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

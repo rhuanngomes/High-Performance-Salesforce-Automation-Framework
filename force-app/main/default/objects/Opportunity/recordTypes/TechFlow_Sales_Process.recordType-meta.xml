@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TechFlow_Sales_Process</fullName>
+    <active>true</active>
+    <businessProcess>TechFlow Sales Process</businessProcess>
+    <description>Funil de vendas padronizado TechFlow</description>
+    <label>TechFlow Sales Process</label>
+    <picklistValues>
+        <picklist>DeliveryInstallationStatus__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yet to begin</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Etapa_Atual_do_Path__c</picklist>
+        <values>
+            <fullName>Agende reunião</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documente necessidades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Envie proposta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Obtenha assinatura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prepare proposta</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Booking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Event and Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Travel Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnerships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walk-in</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of Mouth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivo_bloqueio_de_avan_o__c</picklist>
+        <values>
+            <fullName>Assinatura não obtida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dados incompletos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documentação pendente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Necessidades sem documentação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposta não enviada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposta não preparada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reunião não concluída</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivo_de_Qualidade_da_Opportunity__c</picklist>
+        <values>
+            <fullName>Dados incompletos para estágio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Override manual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sem Amount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sem Close Date</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Existing Customer - Downgrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Customer - Replacement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Customer - Upgrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Customer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows custom permissions for Agentforce Agent : Resort_Manager&apos;s agent user : resort_manager@00dbm00000yqwv754429156.ext.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Resort_Manager692885065 Permissions</label>
+    <license>Einstein Agent</license>
+</PermissionSet>

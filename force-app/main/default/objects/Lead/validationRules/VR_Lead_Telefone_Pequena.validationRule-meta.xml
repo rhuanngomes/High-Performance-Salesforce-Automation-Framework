@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Lead_Telefone_Pequena</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  OR(
+    TEXT(Tamanho_da_empresa__c) = &quot;1 a 10 funcionários&quot;,
+    TEXT(Tamanho_da_empresa__c) = &quot;11 a 50 funcionários&quot;
+  ),
+  ISBLANK( Phone ),
+  NOT(Ignorar_validacao_de_qualidade__c)
+)</errorConditionFormula>
+    <errorDisplayField>Phone</errorDisplayField>
+    <errorMessage>Para empresas até 50 funcionários, o telefone é obrigatório.</errorMessage>
+</ValidationRule>
