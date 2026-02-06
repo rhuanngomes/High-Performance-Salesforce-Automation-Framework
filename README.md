@@ -43,7 +43,7 @@ Acompanhamento de métricas de saúde do pipeline e conversão.
 ![Dashboard Executivo](./img/dashboard.png)
 
 ### 🔹 Automação de Processos
-Exemplo da lógica de fluxo que gerencia as etapas de venda.
+Exemplo da lógica de fluxo que chama a API populando os campos.
 ![Automação de Fluxo](./img/flow.png)
 
 ### 🔹 Experiência do Cliente
