@@ -61,8 +61,3 @@ Formulário com validações integradas.
 - **Integração:** REST API (JSON), Named Credentials, OAuth 2.0.
 - **Segurança:** OWD, Role Hierarchy, Permission Sets, Field History Tracking.
 - **Ferramentas de Apoio:** Salesforce CLI, Git/GitHub, Manifestos XML (package.xml).
-
----
-
-## 👨‍💻 Autor
-**Rhuann Gomes**  
